@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery Events</title>
+  <script src="javascript/jquery.min.js"></script>
+  <style>
+		main {
+			margin: 0 auto;
+			padding: 20px;
+			width: 400px;
+			height: 250px;
+			background: #f5f5f5;
+		}
+		a {
+			display: block;
+			padding-top: 20px;
+		}
+  </style>
+  <script>
+  	$(function(){
+  		$('form').submit(function(event){
+  			event.preventDefault();
+  			var val = $('input[type="text"]').val();
+  			var charCode = val.charCodeAt(0);
+
+  			$(document).off('keypress').on('keypress', function(e) {
+  				if (e.which !== charCode) { return; };
+  				$('a').trigger('click');
+  			});
+  		});
+
+  		$('a').on('click', function(e) {
+  			e.preventDefault();
+  			$('#accordion').slideToggle();
+  		});
+  	});
+  </script>
+</head>
+<body>
+	<main>
+		<h2>Type a key to toggle the accordion with</h2>
+		<form action="" method="get">
+			<input type="text" maxlength="1">
+			<input type="submit" value="Set">
+		</form>
+		<a href="#">Toggle accordion</a>
+		<div id="accordion">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, commodi, veniam adipisci, veritatis, deleniti voluptatibus nobis ullam aut neque pariatur atque eligendi deserunt sed omnis sit qui eius! Consectetur, nihil?</p>			
+		</div>
+	</main>
+</body>
+</html>
