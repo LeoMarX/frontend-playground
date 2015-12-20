@@ -7,3 +7,5 @@ This repository showcase some of my frontend development projects
 [Photography blog](http://j1wu.github.io/frontend-playground/photography-blog/)
 
 [Company site](http://j1wu.github.io/frontend-playground/company-site/)
+
+[Fluid photo gallery](http://j1wu.github.io/frontend-playground/fluid-photo-gallery/)
