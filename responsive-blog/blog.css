@@ -259,6 +259,11 @@ input[type="submit"] {
 }
 
 @media (max-width: 480px) {
+	#content {
+		float: none;
+		width: auto;
+	}
+
 	body > header h1 {
 		background-size: 90%;
 	}
@@ -272,7 +277,13 @@ input[type="submit"] {
 		width: 33%;
 		padding: 5px 20px;
 	}
-	
+
+	input[type="text"],
+	input[type="email"],
+	textarea {
+		width: 270px;
+	}
+
 	#sidebar {
 		background: #ffffff;
 		margin: 0;
@@ -284,11 +295,15 @@ input[type="submit"] {
 
 	#sidebar .block {
 		padding: 20px;
-		width: 90%;
+		width: 85%;
 		background: #f6f7f8;
 	}
 
 	#sidebar .block + .block {
 		margin-top: 20px;
+	}
+
+	footer p {
+		padding-left: 30px;
 	}
 }
