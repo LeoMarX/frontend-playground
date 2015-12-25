@@ -1,0 +1,209 @@
+@import url("whitespace-reset.css");
+
+/*shared style*/
+
+body {
+	font: normal 20px "Avenir", sans-serif;
+	color: #45494d;
+}
+
+a {
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+.button {
+	display: inline-block;
+	padding: 3px 20px;
+	font-size: 0.85em;
+	color: #ffffff;
+	cursor: pointer;
+	background: #50c3af;
+	border-radius: 50px;
+}
+
+/*header section style*/
+
+header {
+	padding: 60px 0;
+	text-align: center;
+	background: #3d3d3d;
+}
+
+header h1 {
+	padding-bottom: 150px;
+	font-size: 4em;
+	background: url("images/logo.png") 50% 70% no-repeat;
+}
+
+header a {
+	color: #ffffff;
+}
+
+header a.active {
+	color: #50c3af;
+}
+
+header a:hover {
+	color: #f5dc39;
+}
+
+header nav li {
+	display: inline-block;
+	padding: 40px 20px 0 20px;
+}
+
+/*main section style*/
+
+main {
+	margin: 0 auto;
+	padding: 80px 0;
+	width: 1000px;
+}
+
+main:after {
+	display: block;
+	clear: both;
+	content: "";
+}
+
+/*content section style*/
+
+#content {
+	float: left;
+	width: 65%;
+}
+
+article {
+	padding: 0 0 80px 0;
+}
+
+article h2 a {
+	color: #45494d;
+}
+
+article h2 + p {
+	padding: 20px 0;
+}
+
+article p a,
+article h2 a:hover {
+	color: #50c3af;
+}
+
+.pagination a:first-of-type {
+	margin-right: 20px;
+	cursor: default;
+	background: #d2d5da;
+}
+
+/*sidebar section style*/
+
+#sidebar {
+	float: right;
+	padding: 25px;
+	width: 25%;
+	background: #f6f7f8;
+	box-sizing: border-box;
+}
+
+#sidebar a, 
+#sidebar p {
+	color: #45494d;
+	font-size: 0.7em;
+}
+
+#sidebar a:hover {
+	color: #50c3af;
+}
+
+#sidebar h3 {
+	padding-bottom: 20px;
+	font-size: 0.9em;
+	text-transform: uppercase;
+}
+
+#sidebar ul {
+	padding-bottom: 100px;
+}
+
+#sidebar li {
+	background: url("images/blt_ul.png") 0 50% no-repeat;
+}
+
+#sidebar li a {
+	position: relative;
+	left: 18px;
+	top: -1px;
+	/*padding: 18px;*/
+}
+
+/*footer section style*/
+
+footer {
+	margin: 0 auto;
+	width: 1000px;
+	clear: both;
+	border-top: 1px solid #d0d0d0;
+}
+
+footer p {
+	padding: 20px 0 50px 0;
+	font-size: 0.7em;
+}
+
+/*comments section style */
+
+.comments p:first-of-type {
+	padding: 20px 0;
+}
+
+.comments article {
+	padding-bottom: 30px;
+}
+
+label.button {
+	display: inline-block;
+	margin: 30px 0;
+}
+
+form {
+	padding-top: 20px;
+}
+
+form h2 {
+	padding-bottom: 20px;
+}
+
+form dt {
+	font-weight: bold;
+}
+
+form dd {
+	padding: 8px 0;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	padding: 5px 10px;
+	width: 450px;
+	height: 30px;
+	border: 1px solid #cccccc;
+	border-radius: 3px;
+}
+
+textarea {
+	width: 100%;
+	height: 140px;
+}
+
+input[type="submit"] {
+	border: none;
+}
+
+
+
