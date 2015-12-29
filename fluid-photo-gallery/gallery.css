@@ -24,8 +24,13 @@ img {
 }
 
 figure {
+	display: none;
 	margin: 0;
 	padding-bottom: 30px;
+}
+
+figure:first-of-type {
+	display: block;
 }
 
 figure img {
@@ -53,4 +58,8 @@ ul li {
 li img {
 	border: 3px solid #ffffff;
 	box-sizing: border-box;
+}
+
+li.active img {
+	border: 3px solid #0066cc;
 }
