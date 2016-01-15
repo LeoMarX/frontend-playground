@@ -10,4 +10,6 @@ This repository showcase some of my frontend development projects
 
 [Fluid photo gallery](http://j1wu.github.io/frontend-playground/fluid-photo-gallery/)
 
-[Responsive Blog](http://j1wu.github.io/frontend-playground/responsive-blog/)
+[Responsive blog](http://j1wu.github.io/frontend-playground/responsive-blog/)
+
+[Profile page](http://j1wu.github.io/sike-css0to1-profile/)
