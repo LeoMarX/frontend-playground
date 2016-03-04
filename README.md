@@ -12,4 +12,4 @@ This repository showcase some of my frontend development projects
 
 [Responsive blog](http://j1wu.github.io/frontend-playground/responsive-blog/)
 
-[Profile page](http://j1wu.github.io/sike-css0to1-profile/)
+[Profile page](http://j1wu.github.io/frontend-playground/profile-page/)
