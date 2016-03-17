@@ -1,0 +1,44 @@
+main {
+    margin: 20px;
+    padding: 20px;
+    background: #eee;
+    border: 1px solid #999;
+}
+
+.clearfix {
+    overflow: auto;
+    zoom: 1; /*for IE6*/
+}
+
+aside.team {
+    float: left;
+    width: 200px;
+    background: #fff;
+    border: 1px solid #999;
+}
+
+aside.team img {
+    float: left;
+    margin: 0 10px 20px -20px;
+}
+
+article {
+    width: auto;
+    margin: 0 140px 0 220px;
+    padding: 0 20px;
+    background: #fff;
+    border: 1px solid #999;
+}
+
+aside.individual {
+    float: right;
+    margin-top: -180px;
+    width: 120px;
+    background: #fff;
+    border: 1px solid #999;
+    clear: both;
+}
+
+aside.individual figure img {
+    margin-left: -20px;
+}
