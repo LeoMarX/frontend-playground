@@ -1,0 +1,63 @@
+main {
+    position: relative;
+    margin: 20px;
+    background: #eee;
+    border: 1px solid #999;
+}
+
+main:after {
+    content: "";
+    display: block;
+    height: 500px;
+}
+
+aside.team {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 200px;
+    background: #fff;
+    border: 1px solid #999;
+}
+
+aside.team:after {
+    content: "";
+    display: block;
+    height: 40px;
+}
+
+aside.team img {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+aside.team p {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+article {
+    position: absolute;
+    top: 20px;
+    left: 240px;
+    right: 160px;
+    padding: 0 20px;
+    background: #fff;
+    border: 1px solid #999;
+}
+
+aside.individual {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 120px;
+    background: #fff;
+    border: 1px solid #999;
+}
+
+aside.individual figure img {
+    position: relative;
+    right: 20px;
+}
